@@ -14,7 +14,7 @@ class TrafficMonitoringSystem:
     def __init__(self):
         # 系统配置
         self.config = {
-            'camera_source': "111.mp4",  # 可以是视频文件路径或摄像头ID
+            'camera_source': "bigcar.mp4",  # 可以是视频文件路径或摄像头ID
             'server_host': '0.0.0.0',
             'server_port': 9999,
             'show_video': True,
